@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#how to start react app
+npm create vite@latest my-react-app -- --template react
+USE ES linter
