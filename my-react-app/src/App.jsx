@@ -1,27 +1,32 @@
 function MyComponent() {
   return (
-      <div>
+
+      //header section
+      <header>
       <h1>KadyJamesTeach</h1>
 
-        <p>Welcome to My Website</p>
+        <title>Welcome to My Website</title>
 
-      <ul>
-        <li>home</li>
-        <li>about me</li>
-        <li>contact</li>
-        <li>login</li>
-        <li>sign up</li>
-      </ul>
+          <br/>
+      <nav>
+        <p>home</p>
+        <p>about me</p>
+        <p>contact</p>
+        <p>login</p>
+        <p>sign up</p>
+      </nav>
+
+          <br/>
 
         <h2>Introduction</h2>
-      <p>Welcome to My Website</p>
+
         <p>Hello! My name is Kady James. I am a teacher with a passion for education and helping students succeed. Our online platform, offers a wide range of subject diversity, paired with online classes, interactivity, external resources for in depth knowledge at an affordable cost
-
 </p>
-      </div>
-
+      </header>
   )
+ 
 
 }
+
 
 export default MyComponent;
